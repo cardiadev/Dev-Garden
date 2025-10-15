@@ -1,0 +1,8 @@
+{
+  "label": "DP - 1D",
+  "position": 17,
+  "link": {
+    "type": "generated-index",
+    "description": "Dynamic programming problems with one-dimensional state."
+  }
+}

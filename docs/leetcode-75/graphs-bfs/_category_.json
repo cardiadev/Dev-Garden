@@ -1,0 +1,8 @@
+{
+  "label": "Graphs - BFS",
+  "position": 13,
+  "link": {
+    "type": "generated-index",
+    "description": "Graph problems using breadth-first search."
+  }
+}

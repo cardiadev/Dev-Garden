@@ -1,0 +1,8 @@
+{
+  "label": "Linked List",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "Problems involving linked list data structure."
+  }
+}

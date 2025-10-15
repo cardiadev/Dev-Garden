@@ -1,0 +1,8 @@
+{
+  "label": "Trie",
+  "position": 20,
+  "link": {
+    "type": "generated-index",
+    "description": "Problems using trie (prefix tree) data structure."
+  }
+}

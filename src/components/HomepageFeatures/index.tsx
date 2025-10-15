@@ -11,32 +11,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
+    title: '🌱 Living Knowledge Base',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        A digital garden where ideas grow and evolve over time. Topics are 
+        interconnected, allowing you to explore freely and discover new insights.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '🚀 LeetCode 75 Journey',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        Detailed notes, solutions, and key takeaways from the LeetCode 75 study plan.
+        Complete with complexity analysis and fully commented code.
+      </>
+    ),
+  },
+  {
+    title: '💡 Creative Problem Solving',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        A space to document my journey as a software developer—combining 
+        passion for technology with creative approaches to problem-solving.
       </>
     ),
   },

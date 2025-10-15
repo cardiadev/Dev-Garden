@@ -2,46 +2,78 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome to My Dev Garden 🌱
 
-Let's discover **Docusaurus in less than 5 minutes**.
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+  <img 
+    src="/img/carlos-diaz.jpg" 
+    alt="Carlos Diaz - Software Developer" 
+    style={{
+      width: '200px',
+      height: '200px',
+      borderRadius: '50%',
+      objectFit: 'cover',
+      border: '4px solid #000000',
+      boxShadow: '0 4px 16px rgba(0, 0, 0, 0.15)'
+    }}
+  />
+</div>
 
-## Getting Started
+<div style={{textAlign: 'center', marginBottom: '3rem'}}>
+  <h2 style={{marginBottom: '0.5rem'}}>Hi! I'm Carlos Diaz 👋</h2>
+  <p style={{fontSize: '1.2rem', color: 'var(--ifm-color-primary)'}}>
+    <strong>Software Developer</strong> | Passionate about Technology | Creative Problem Solver
+  </p>
+  <p style={{marginTop: '1rem'}}>
+    <a href="https://github.com/cardiadev" target="_blank">@cardiadev</a>
+  </p>
+</div>
 
-Get started by **creating a new site**.
+Welcome to my digital garden—a living space where I document my journey as a developer. This is part of my main portfolio at [carlosdiaz.dev](https://carlosdiaz.dev).
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## What is a Digital Garden?
 
-### What you'll need
+A digital garden is different from a traditional blog. It's:
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- **🌱 Organic & Evolving:** Ideas grow and change over time, just like plants in a garden
+- **🔗 Interconnected:** Topics link together naturally, allowing you to explore freely
+- **📝 Learning in Public:** It's more about the journey than polished perfection
+- **🧑‍💻 Personal:** My space to experiment, document, and reflect on my growth
 
-## Generate a new site
+## What You'll Find Here
 
-Generate a new Docusaurus site using the **classic template**.
+This garden contains various knowledge areas at different stages of growth:
 
-The classic template will automatically be added to your project after you run the command:
+### 🌿 LeetCode 75 Journey
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+My detailed notes, solutions, and key takeaways as I work through the LeetCode 75 study plan. Each problem includes:
+- Problem analysis and intuition
+- Step-by-step approach
+- Complexity analysis
+- Fully commented code solutions
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### 🤖 AI Creations _(Coming Soon)_
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Explorations and projects using generative AI, machine learning models, and APIs.
 
-## Start your site
+### 🔌 Arduino Projects _(Coming Soon)_
 
-Run the development server:
+Hands-on experiments with hardware, from simple circuits to IoT prototypes.
 
-```bash
-cd my-website
-npm run start
-```
+### 🎨 UX/UI Insights _(Coming Soon)_
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+Notes on design principles, user experience, and building intuitive interfaces.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+## How to Navigate
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Use the sidebar on the left to explore different sections. Topics are organized by category, and you can jump between related concepts as you explore.
+
+## Let's Grow Together 🌱
+
+This garden is a work in progress, and that's exactly the point. Feel free to explore, learn, and get inspired. If you have suggestions or want to connect, find me on:
+
+- **GitHub:** [@cardiadev](https://github.com/cardiadev)
+- **Twitter:** [@cardiadev](https://twitter.com/cardiadev)
+- **LinkedIn:** [@cardiadev](https://linkedin.com/in/cardiadev)
+
+Happy exploring! 🪴

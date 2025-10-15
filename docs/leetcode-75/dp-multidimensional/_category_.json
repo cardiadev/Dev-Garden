@@ -1,0 +1,8 @@
+{
+  "label": "DP - Multidimensional",
+  "position": 18,
+  "link": {
+    "type": "generated-index",
+    "description": "Dynamic programming problems with multidimensional state."
+  }
+}

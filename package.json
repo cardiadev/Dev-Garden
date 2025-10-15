@@ -1,6 +1,13 @@
 {
   "name": "dev-garden",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Dev Garden - A living collection of notes, code, and ideas by Carlos Diaz (@cardiadev). Part of carlosdiaz.dev",
+  "author": "Carlos Diaz <@cardiadev>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cardiadev/dev-garden"
+  },
+  "homepage": "https://carlosdiaz.dev",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",

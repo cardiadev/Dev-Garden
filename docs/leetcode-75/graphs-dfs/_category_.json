@@ -1,0 +1,8 @@
+{
+  "label": "Graphs - DFS",
+  "position": 12,
+  "link": {
+    "type": "generated-index",
+    "description": "Graph problems using depth-first search."
+  }
+}

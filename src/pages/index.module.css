@@ -1,18 +1,63 @@
 /**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
+ * Minimalist homepage styling for Dev Garden
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 8rem 0 10rem 0;
   text-align: center;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
+  background-color: #ebebeb;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.heroBanner::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"><path d="M0,0 C300,80 900,80 1200,0 L1200,120 L0,120 Z" fill="%23ffffff"/></svg>');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.heroBanner h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.heroBanner .hero__subtitle {
+  font-size: 1.25rem;
+  color: #2a2a2a;
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.6;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 4rem 2rem 8rem 2rem;
+    min-height: 50vh;
+  }
+  
+  .heroBanner h1 {
+    font-size: 2.5rem;
+  }
+  
+  .heroBanner .hero__subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .heroBanner::after {
+    height: 40px;
   }
 }
 
@@ -20,4 +65,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.buttons .button {
+  border-radius: 50px;
+  font-weight: 600;
+  padding: 0.875rem 2.5rem;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.buttons .button--primary {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.buttons .button--primary:hover {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
 }

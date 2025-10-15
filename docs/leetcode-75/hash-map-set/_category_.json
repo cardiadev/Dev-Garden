@@ -1,0 +1,8 @@
+{
+  "label": "Hash Map / Set",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Problems using hash maps and hash sets."
+  }
+}

@@ -1,0 +1,80 @@
+---
+sidebar_position: 1
+title: "Merge Strings Alternately"
+tags: ["Array", "Two Pointers", "String"]
+---
+
+# Merge Strings Alternately
+
+> **Difficulty:** Easy
+
+You are given two strings `word1` and `word2`. Merge the strings by adding letters in alternating order, starting with `word1`. If a string is longer than the other, append the additional letters onto the end of the merged string.
+
+**Problem Link:** [LeetCode - Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
+
+***
+
+### Intuition
+
+The goal is to weave two strings together, like shuffling two decks of cards. We take one character from the first string, then one from the second, and repeat. If one string runs out of characters, we simply append the rest of the longer string to the end.
+
+The core idea is to loop a number of times equal to the length of the **longest** string. This ensures we don't miss any characters. In each step of the loop, we try to grab a character from `word1` and then try to grab one from `word2`.
+
+***
+
+### Approach
+
+1.  **Find the Boundary**: First, we need to know how many times to loop. We find the length of the longest string between `word1` and `word2` and store it in `maxLength`.
+2.  **Prepare the Result**: We initialize an empty string called `result` where we will build our final merged string.
+3.  **Loop and Build**: We start a `for` loop that goes from `i = 0` up to `maxLength`. Inside the loop for each index `i`:
+    * We check if `i` is a valid index for `word1` (i.e., `i < word1.length`). If it is, we add `word1[i]` to our `result`.
+    * We do a separate check to see if `i` is a valid index for `word2` (i.e., `i < word2.length`). If it is, we add `word2[i]` to our `result`.
+4.  **Return**: After the loop finishes, `result` holds the complete merged string, and we return it.
+
+***
+
+### Complexity
+
+Let $N$ be the length of `word1` and $M$ be the length of `word2`.
+
+#### Time complexity: $O(\max(N, M))$
+
+The `for` loop runs as many times as the length of the longer string. All operations inside the loop (checking length, getting a character, and appending) take constant time.
+
+#### Space complexity: $O(N + M)$
+
+We create a new string `result`. In the worst case, its length will be the sum of the lengths of `word1` and `word2`. Therefore, the space required is proportional to the total number of characters in both input strings.
+
+***
+
+### Code
+
+```javascript
+/**
+ * @param {string} word1
+ * @param {string} word2
+ * @return {string}
+ */
+var mergeAlternately = function(word1, word2) {
+    // Determine the maximum length to set the boundary for the loop.
+    const maxLength = Math.max(word1.length, word2.length);
+    
+    // This variable will store our final merged string.
+    let result = "";
+    
+    // Loop from the beginning to the end of the longest string.
+    for (let i = 0; i < maxLength; i++) {
+        // If the current index is valid for word1, append its character.
+        if (i < word1.length) {
+            result += word1[i];
+        }
+        
+        // If the current index is valid for word2, append its character.
+        if (i < word2.length) {
+            result += word2[i];
+        }
+    }
+    
+    return result;
+};
+```
