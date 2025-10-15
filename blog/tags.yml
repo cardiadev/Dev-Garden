@@ -1,19 +1,24 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+typescript:
+  label: TypeScript
+  permalink: /typescript
+  description: TypeScript tips, tricks, and best practices
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+javascript:
+  label: JavaScript
+  permalink: /javascript
+  description: JavaScript fundamentals and advanced concepts
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+web-dev:
+  label: Web Development
+  permalink: /web-dev
+  description: Modern web development topics
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+tutorial:
+  label: Tutorial
+  permalink: /tutorial
+  description: Step-by-step guides and tutorials
+
+best-practices:
+  label: Best Practices
+  permalink: /best-practices
+  description: Code quality and best practices
